@@ -1,0 +1,42 @@
+####################################################################         Getting and Cleaning Data Assignment Code Book          # ###################################################################
+
+Varibles
+
+**Activities**
+
+There are 6 activities the subject being obeserved could be doing while this data recorded using the smart device.
+
+laying - Laying down
+sitting - Sitting down
+standing - Standing up.
+walking - Walking around.
+walkingupstairs - Walking Upstairs
+walkingdownstairs - Walking Downstairs
+
+**Subject Id**
+As per the Readme there are a total of 30 subject and they have each been assigned a number 1 - 30.
+
+subjectid - The number assigned to the subject being observed
+
+**Recorded Values**
+As per the Readme and features_info files smart device has an accelerometer and gyroscope that it records signals from. The accelerometer has two components the body component and the gravity component. All signals have a x,y and z component. All of these are recorded in respect to the time domain. The features_info file explains how these signals are used to calculate a further 552 observations in both the time and frequency domains. The accelerometer values are in m/sec^2 and the angular velocity is in rad/sec
+
+tbodyaccmeanx - t is for the time domain. accbodymeanx is the accelerometer signal body component's mean calculation in the x axis
+tbodyaccmeany - t is for the time domain. accbodymeany is the accelerometer signal body component's mean calculation in the y axis
+tbodyaccmeanz - t is for the time domain. accbodymean is the accelerometer signal body component's mean calculation in the z axis
+tbodyaccstdx - t is for the time domain. accbodystdx is the accelerometer signal body component's standard deviation calculation in the x axis
+tbodyaccstdy - t is for the time domain. accbodystdy is the accelerometer signal body component's standard deviation calculation in the y axis
+tbodyaccstdz - t is for the time domain. accbodystdz is the accelerometer signal body component's standard deviation calculation in the z axis.
+tgravityaccmeanx - t is for the time domain. gravityaccmeanx the accelerometer signal gravity component's mean calculation in the x axis
+tgravityaccmeany - t is for the time domain. gravityaccmeany is the accelerometer signal gravity component's mean calculation in the y axis
+tgravityaccmeanz - t is for the time domain. gravityaccmeanz is the accelerometer signals gravity component's mean calculation in the z axis
+tgravityaccstdx - t is for the time domain. gravityaccstdx is the accelerometer signal gravity component's standard deviation calculation in the x axis
+tgravityaccstdy - t is for the time domain. gravityaccstdy is the accelerometer signal gravity component's standard deviation calculation in the y axis
+tgravityaccstdz - t is for the time domain. gravityaccstdz is the accelerometer signal gravity component's mean calculation in the z axis
+tbodygyromeanx - t is for the time domain. bodygyromeanx is the gyroscope signal's mean calculation in the x axis
+tbodygyromeany - t is for the time domain. bodygyromeany is the gyroscope signal's mean calculation in the y axis
+tbodygyromeanz - t is for the time domain. bodygyromeanz is the gyroscope signal's mean calculation in the z axis
+tbodygyrostdx - t is for the time domain. bodygyrostdx is the gyroscope signal's standard deviation calculation in the x axis
+tbodygyrostdy - t is for the time domain. bodygyrostdy is the gyroscope signal's standard deviation calculation in the y axis
+tbodygyrostdz - t is for the time domain. bodygyrostdz is the gyroscope signal's standard deviation calculation in the z axis
+
